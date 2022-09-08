@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image :url(./Unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+
+}
+
+.notifications{
+    display: none;  
+}
+
+.contain{
+    height: 40%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 10px;
+    display: block;
+    padding: 30px;
+   
+} 
+
+.img{
+    border-radius: 10px;
+}
+
+.contain p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+
+.fontstuff{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.clouds{
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.clouds p{
+
+    width: fit-content;
+}
+
+.temperature p{
+    cursor:pointer; 
+}
